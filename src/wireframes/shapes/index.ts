@@ -16,6 +16,7 @@ import { Phone } from './neutral/phone';
 import { Progress } from './neutral/progress';
 import { RadioButton } from './neutral/radio-button';
 import { Rectangle } from './neutral/rectangle';
+import { ShadmanLine } from './neutral/shadman-line';
 import { Shape } from './neutral/shape';
 import { Slider } from './neutral/slider';
 import { Tablet } from './neutral/tablet';
@@ -52,6 +53,7 @@ export function registerRenderers(): RendererService {
         .addRenderer(new Raster())
         .addRenderer(new Rectangle())
         .addRenderer(new Shape())
+        .addRenderer(new ShadmanLine())
         .addRenderer(new Slider())
         .addRenderer(new TextArea())
         .addRenderer(new TextInput())
